@@ -1,49 +1,48 @@
 package backend.oop_cw.Service;
 
-import backend.oop_cw_backend.model.Customer;
+import backend.oop_cw.Model.Customer;
 import org.springframework.stereotype.Service;
 
 import java.util.LinkedList;
+import java.util.List;
 
 @Service
 public class CustomerService {
 
-    private final LinkedList<Customer> customerList = new LinkedList<>();
+    private final LinkedList<Customer> customers = new LinkedList<>();
+
+    // Get all customers
+    public List<Customer> getAllCustomers() {
+        return customers;
+    }
+
+    // Get a specific customer by ID
+    public Customer getCustomerById(int id) {
+        return customers.stream()
+                .filter(customer -> customer.getId() == id)
+                .findFirst()
+                .orElse(null);
+    }
 
     // Add a new customer
     public void addCustomer(Customer customer) {
-        customerList.add(customer);
-        System.out.println("Customer added: " + customer);
+        customers.add(customer);
     }
 
-    // Get all customers
-    public LinkedList<Customer> getCustomerList() {
-        return new LinkedList<>(customerList);
-    }
-
-    // Delete a customer by ID
-    public boolean deleteCustomerById(int customerId) {
-        return customerList.removeIf(customer -> customer.getCusId() == customerId);
-    }
-
-    // Update customer details
-    public boolean updateCustomer(int customerId, String newName) {
-        for (Customer customer : customerList) {
-            if (customer.getCusId() == customerId) {
-                customer.setCusName(newName);
+    // Update an existing customer
+    public boolean updateCustomer(Customer customer) {
+        for (int i = 0; i < customers.size(); i++) {
+            if (customers.get(i).getId() == customer.getId()) {
+                customers.set(i, customer);
                 return true;
             }
         }
         return false;
     }
 
-    // Get a customer by ID (Optional helper method)
-    public Customer getCustomerById(int customerId) {
-        for (Customer customer : customerList) {
-            if (customer.getCusId() == customerId) {
-                return customer;
-            }
-        }
-        return null; // Return null if not found
+    // Delete a customer by ID
+    public boolean deleteCustomer(int id) {
+        return customers.removeIf(customer -> customer.getId() == id);
     }
 }
+

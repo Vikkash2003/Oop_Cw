@@ -1,51 +1,62 @@
 package backend.oop_cw.Controller;
 
-import backend.oop_cw_backend.Service.CustomerService;
-import backend.oop_cw_backend.model.Customer;
+import backend.oop_cw.Model.Customer;
+import backend.oop_cw.Service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.LinkedList;
+import java.util.List;
 
 @RestController
-@RequestMapping("/api/customers")
+@RequestMapping("/customers")
 public class CustomerController {
 
     @Autowired
-    private CustomerService customerService;
+    private CustomerService service;
 
     // Get all customers
     @GetMapping
-    public LinkedList<Customer> getAllCustomers() {
-        return customerService.getCustomerList();
+    public List<Customer> getAllCustomers() {
+        return service.getAllCustomers();
+    }
+
+    // Get a customer by ID
+    @GetMapping("/{id}")
+    public ResponseEntity<Customer> getCustomerById(@PathVariable int id) {
+        Customer customer = service.getCustomerById(id);
+        if (customer == null) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(customer, HttpStatus.OK);
     }
 
     // Add a new customer
     @PostMapping
-    public String addCustomer(@RequestBody Customer customer) {
-        customerService.addCustomer(customer);
-        return "Customer added successfully: " + customer.getCusName();
+    public ResponseEntity<Void> addCustomer(@RequestBody Customer customer) {
+        service.addCustomer(customer);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
-    // Delete a customer by ID
+    // Update a customer
+    @PutMapping
+    public ResponseEntity<Void> updateCustomer(@RequestBody Customer customer) {
+        boolean updated = service.updateCustomer(customer);
+        if (!updated) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    // Delete a customer
     @DeleteMapping("/{id}")
-    public String removeCustomer(@PathVariable int id) {
-        boolean removed = customerService.deleteCustomerById(id);
-        if (removed) {
-            return "Customer with ID " + id + " removed successfully.";
-        } else {
-            return "Customer with ID " + id + " not found.";
+    public ResponseEntity<Void> deleteCustomer(@PathVariable int id) {
+        boolean deleted = service.deleteCustomer(id);
+        if (!deleted) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-    }
-
-    // Update a customer by ID
-    @PutMapping("/{id}")
-    public String updateCustomer(@PathVariable int id, @RequestBody Customer updatedCustomer) {
-        boolean updated = customerService.updateCustomer(id, updatedCustomer.getCusName());
-        if (updated) {
-            return "Customer with ID " + id + " updated successfully.";
-        } else {
-            return "Customer with ID " + id + " not found.";
-        }
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
+
