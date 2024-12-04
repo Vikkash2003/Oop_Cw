@@ -1,35 +1,49 @@
 package backend.oop_cw.Model;
 
 public class Customer {
-    private int CusId;
-    private String CusName;
+    private int id;
+    private String name;
+    private String email;
+    private String phone;
 
-    Customer(int CusId, String CusName) {
-        this.CusId = CusId;
-        this.CusName = CusName;
+    public Customer() {}
+
+    public Customer(int id, String name, String email, String phone) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
     }
 
-    public int getCusId() {
-        return CusId;
+    public int getId() {
+        return id;
     }
 
-    public void setCusId(int cusId) {
-        CusId = cusId;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getCusName() {
-        return CusName;
+    public String getName() {
+        return name;
     }
 
-    public void setCusName(String cusName) {
-        CusName = cusName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "CusId=" + CusId +
-                ", CusName='" + CusName + '\'' +
-                '}';
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }
