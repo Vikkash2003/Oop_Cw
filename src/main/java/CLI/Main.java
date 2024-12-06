@@ -11,7 +11,7 @@ public class Main {
         Configuration config = Configuration.promptForConfiguration(scanner);
 
         // Save the user input to config.json for future reference
-        config.saveToFile("config.json");
+//        config.saveToFile("config.json");
         System.out.println("Configuration saved successfully.");
 
         TicketPool ticketPool = new TicketPool(config.getMaxTicketCapacity());

@@ -1,8 +1,17 @@
 package backend.oop_cw.Model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Vendor {
-    private String vendorName;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int vendorId;
+    private String vendorName;
     private int ticketCount;
 
     public Vendor() {}

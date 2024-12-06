@@ -1,6 +1,6 @@
 package CLI;
 
-import com.google.gson.Gson;
+//import com.google.gson.Gson;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -29,14 +29,14 @@ class Configuration {
     public int getMaxTicketCapacity() { return maxTicketCapacity; }
     public int getTimeInMilliseconds() { return timeInMilliseconds; }
 
-    public void saveToFile(String filename) {
-        try (FileWriter writer = new FileWriter(filename)) {
-            new Gson().toJson(this, writer);
-            System.out.println("Configuration saved to " + filename);
-        } catch (IOException e) {
-            System.out.println("Error saving configuration: " + e.getMessage());
-        }
-    }
+//    public void saveToFile(String filename) {
+//        try (FileWriter writer = new FileWriter(filename)) {
+//            new Gson().toJson(this, writer);
+//            System.out.println("Configuration saved to " + filename);
+//        } catch (IOException e) {
+//            System.out.println("Error saving configuration: " + e.getMessage());
+//        }
+//    }
 
     public static Configuration promptForConfiguration(Scanner scanner) {
 
