@@ -6,17 +6,21 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Vendor {
+public class Vendor{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int vendorId;
     private String vendorName;
     private int ticketCount;
+//    private Ticket ticketId;
+//    private Ticket eventName;
+
 
     public Vendor() {}
 
-    public Vendor(String vendorName, int vendorId, int ticketCount) {
+    public Vendor(String vendorName, int vendorId, int ticketCount, Ticket ticketId, Ticket eventName) {
+
         this.vendorName = vendorName;
         this.vendorId = vendorId;
         this.ticketCount = ticketCount;
