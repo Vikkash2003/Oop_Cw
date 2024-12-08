@@ -1,49 +1,48 @@
 package backend.oop_cw.Model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Customer {
-    private int id;
-    private String name;
-    private String email;
-    private String phone;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int CustomerId;
+    private String CustomerName;
+    private String phoneNo;
 
     public Customer() {}
 
-    public Customer(int id, String name, String email, String phone) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
+    public Customer(int CustomerId, String CustomerName, String phoneNo) {
+        this.CustomerId = CustomerId;
+        this.CustomerName = CustomerName;
+        this.phoneNo = phoneNo;
     }
 
-    public int getId() {
-        return id;
+    public int getCustomerId() {
+        return CustomerId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setCustomerId(int customerId) {
+        CustomerId = customerId;
     }
 
-    public String getName() {
-        return name;
+    public String getCustomerName() {
+        return CustomerName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCustomerName(String customerName) {
+        CustomerName = customerName;
     }
 
-    public String getEmail() {
-        return email;
+    public String getPhoneNo() {
+        return phoneNo;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setPhoneNo(String phoneNo) {
+        this.phoneNo = phoneNo;
     }
 }

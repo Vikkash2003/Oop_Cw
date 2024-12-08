@@ -1,0 +1,1476 @@
+Dec 08, 2024 2:01:11 AM CLI.Main main
+INFO: Type 'stop' to terminate the system:
+Dec 08, 2024 2:01:11 AM CLI.Customer run
+WARNING: Customer 1 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 1
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 2
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 3
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 4
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 5
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 6
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 7
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 8
+Dec 08, 2024 2:01:11 AM CLI.TicketPool addTicket
+WARNING: Vendor 1 cannot add ticket: Pool is full.
+Dec 08, 2024 2:01:11 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:01:11 AM CLI.Customer run
+INFO: Customer 2 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:01:12 AM CLI.Customer run
+INFO: Customer 3 purchased: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:01:12 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 7
+Dec 08, 2024 2:01:12 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 8
+Dec 08, 2024 2:01:12 AM CLI.Vendor run
+WARNING: Vendor 2 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:01:12 AM CLI.Vendor run
+WARNING: Vendor 4 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:01:12 AM CLI.Vendor run
+WARNING: Vendor 3 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:01:12 AM CLI.Customer run
+INFO: Customer 4 purchased: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:01:13 AM CLI.Vendor run
+WARNING: Vendor 5 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:01:13 AM CLI.Customer run
+INFO: Customer 5 purchased: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:01:13 AM CLI.Vendor run
+WARNING: Vendor 1 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:01:13 AM CLI.Customer run
+INFO: Customer 6 purchased: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:01:14 AM CLI.Customer run
+INFO: Customer 7 purchased: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:01:14 AM CLI.Customer run
+INFO: Customer 8 purchased: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:01:15 AM CLI.Customer run
+INFO: Customer 9 purchased: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:01:15 AM CLI.Customer run
+INFO: Customer 10 purchased: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:01:16 AM CLI.Customer run
+INFO: Customer 11 purchased: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:01:16 AM CLI.Main lambda$main$0
+INFO: All tickets are sold. Stopping the system...
+Dec 08, 2024 2:04:25 AM CLI.Main main
+INFO: Type 'stop' to terminate the system:
+Dec 08, 2024 2:04:25 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 1
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 2
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 3
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 4
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 5
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 6
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 7
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 8
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 9
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 10
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 11
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 12
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 13
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 14
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=18, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 15
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=19, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 16
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=20, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 17
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=21, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 18
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=22, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 19
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=23, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 20
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 21
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=24, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 22
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=25, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 23
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=26, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 24
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=27, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 25
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=28, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 26
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=29, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 27
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=30, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 28
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=31, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 29
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=32, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 30
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 31
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=33, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 32
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=34, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 33
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=35, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 34
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=36, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 35
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=37, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 36
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=38, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 37
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=39, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 38
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=40, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 39
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=41, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 40
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 41
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=42, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 42
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=43, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 43
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=44, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 44
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=45, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 45
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=46, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 46
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=47, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 47
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=48, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 48
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=49, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 49
+Dec 08, 2024 2:04:26 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=50, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 50
+Dec 08, 2024 2:04:26 AM CLI.Customer run
+INFO: Customer 1 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:26 AM CLI.Customer run
+INFO: Customer 2 purchased: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:26 AM CLI.Customer run
+INFO: Customer 3 purchased: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:26 AM CLI.Customer run
+INFO: Customer 4 purchased: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:27 AM CLI.Customer run
+INFO: Customer 5 purchased: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:27 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=51, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 46
+Dec 08, 2024 2:04:27 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=52, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 47
+Dec 08, 2024 2:04:27 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=53, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 48
+Dec 08, 2024 2:04:27 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=54, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 49
+Dec 08, 2024 2:04:27 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=55, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 50
+Dec 08, 2024 2:04:27 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:27 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:27 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:27 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:27 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:27 AM CLI.Customer run
+INFO: Customer 6 purchased: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:27 AM CLI.Customer run
+INFO: Customer 7 purchased: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:27 AM CLI.Customer run
+INFO: Customer 8 purchased: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:28 AM CLI.Customer run
+INFO: Customer 9 purchased: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:28 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=56, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 47
+Dec 08, 2024 2:04:28 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=57, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 48
+Dec 08, 2024 2:04:28 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=58, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 49
+Dec 08, 2024 2:04:28 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=59, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 50
+Dec 08, 2024 2:04:28 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:28 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:28 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:28 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:28 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:28 AM CLI.Customer run
+INFO: Customer 10 purchased: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:28 AM CLI.Customer run
+INFO: Customer 11 purchased: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:28 AM CLI.Customer run
+INFO: Customer 12 purchased: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:29 AM CLI.Customer run
+INFO: Customer 13 purchased: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:29 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=61, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 47
+Dec 08, 2024 2:04:29 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=62, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 48
+Dec 08, 2024 2:04:29 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=63, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 49
+Dec 08, 2024 2:04:29 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=64, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 50
+Dec 08, 2024 2:04:29 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:29 AM CLI.TicketPool addTicket
+WARNING: Vendor 5 cannot add ticket: Pool is full.
+Dec 08, 2024 2:04:29 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:29 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:29 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:29 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:29 AM CLI.Customer run
+INFO: Customer 14 purchased: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:29 AM CLI.Customer run
+INFO: Customer 15 purchased: Ticket{ticketId=18, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:29 AM CLI.Customer run
+INFO: Customer 16 purchased: Ticket{ticketId=19, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:30 AM CLI.Customer run
+INFO: Customer 17 purchased: Ticket{ticketId=20, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:30 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=65, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 47
+Dec 08, 2024 2:04:30 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=66, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 48
+Dec 08, 2024 2:04:30 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=67, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 49
+Dec 08, 2024 2:04:30 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=68, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 50
+Dec 08, 2024 2:04:30 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:30 AM CLI.TicketPool addTicket
+WARNING: Vendor 5 cannot add ticket: Pool is full.
+Dec 08, 2024 2:04:30 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:30 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:30 AM CLI.Customer run
+INFO: Customer 18 purchased: Ticket{ticketId=21, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:30 AM CLI.Customer run
+INFO: Customer 19 purchased: Ticket{ticketId=22, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:31 AM CLI.Customer run
+INFO: Customer 20 purchased: Ticket{ticketId=23, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:31 AM CLI.Customer run
+INFO: Customer 21 purchased: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:31 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=69, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 47
+Dec 08, 2024 2:04:31 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=70, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 48
+Dec 08, 2024 2:04:31 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=71, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 49
+Dec 08, 2024 2:04:31 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=72, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 50
+Dec 08, 2024 2:04:31 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:31 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:31 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:31 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:31 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:31 AM CLI.Customer run
+INFO: Customer 22 purchased: Ticket{ticketId=24, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:31 AM CLI.Customer run
+INFO: Customer 23 purchased: Ticket{ticketId=25, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:32 AM CLI.Customer run
+INFO: Customer 24 purchased: Ticket{ticketId=26, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:32 AM CLI.Customer run
+INFO: Customer 25 purchased: Ticket{ticketId=27, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:32 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=73, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 47
+Dec 08, 2024 2:04:32 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=74, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 48
+Dec 08, 2024 2:04:32 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=75, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 49
+Dec 08, 2024 2:04:32 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=76, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 50
+Dec 08, 2024 2:04:32 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:32 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:32 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:32 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:32 AM CLI.Customer run
+INFO: Customer 26 purchased: Ticket{ticketId=28, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:32 AM CLI.Customer run
+INFO: Customer 27 purchased: Ticket{ticketId=29, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:33 AM CLI.Customer run
+INFO: Customer 28 purchased: Ticket{ticketId=30, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:33 AM CLI.Customer run
+INFO: Customer 29 purchased: Ticket{ticketId=31, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:33 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=77, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 47
+Dec 08, 2024 2:04:33 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=78, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 48
+Dec 08, 2024 2:04:33 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=79, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 49
+Dec 08, 2024 2:04:33 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=80, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 50
+Dec 08, 2024 2:04:33 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:33 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:33 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:33 AM CLI.Customer run
+INFO: Customer 30 purchased: Ticket{ticketId=32, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:33 AM CLI.Customer run
+INFO: Customer 31 purchased: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:34 AM CLI.Customer run
+INFO: Customer 32 purchased: Ticket{ticketId=33, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:34 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=81, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 48
+Dec 08, 2024 2:04:34 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=82, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 49
+Dec 08, 2024 2:04:34 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=83, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 50
+Dec 08, 2024 2:04:34 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:34 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:34 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:34 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:34 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:34 AM CLI.Customer run
+INFO: Customer 33 purchased: Ticket{ticketId=34, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:34 AM CLI.Customer run
+INFO: Customer 34 purchased: Ticket{ticketId=35, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:34 AM CLI.Customer run
+INFO: Customer 35 purchased: Ticket{ticketId=36, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:35 AM CLI.Customer run
+INFO: Customer 36 purchased: Ticket{ticketId=37, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:35 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=84, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 47
+Dec 08, 2024 2:04:35 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=85, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 48
+Dec 08, 2024 2:04:35 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=86, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 49
+Dec 08, 2024 2:04:35 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=87, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 50
+Dec 08, 2024 2:04:35 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:35 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:35 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:35 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:35 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:35 AM CLI.Customer run
+INFO: Customer 37 purchased: Ticket{ticketId=38, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:35 AM CLI.Customer run
+INFO: Customer 38 purchased: Ticket{ticketId=39, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:35 AM CLI.Customer run
+INFO: Customer 39 purchased: Ticket{ticketId=40, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:36 AM CLI.Customer run
+INFO: Customer 40 purchased: Ticket{ticketId=41, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:04:36 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=88, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 47
+Dec 08, 2024 2:04:36 AM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=89, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 48
+Dec 08, 2024 2:04:36 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=90, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 49
+Dec 08, 2024 2:04:36 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=91, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 50
+Dec 08, 2024 2:04:36 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:36 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:36 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:36 AM CLI.Customer run
+INFO: Customer 41 purchased: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:36 AM CLI.Customer run
+INFO: Customer 42 purchased: Ticket{ticketId=42, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:37 AM CLI.Customer run
+INFO: Customer 43 purchased: Ticket{ticketId=43, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:37 AM CLI.Customer run
+INFO: Customer 44 purchased: Ticket{ticketId=44, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:37 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=92, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 47
+Dec 08, 2024 2:04:37 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=93, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 48
+Dec 08, 2024 2:04:37 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=94, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 49
+Dec 08, 2024 2:04:37 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=95, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 50
+Dec 08, 2024 2:04:37 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:37 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:37 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:37 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:37 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:37 AM CLI.Customer run
+INFO: Customer 45 purchased: Ticket{ticketId=45, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:37 AM CLI.Customer run
+INFO: Customer 46 purchased: Ticket{ticketId=46, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:38 AM CLI.Customer run
+INFO: Customer 47 purchased: Ticket{ticketId=47, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:38 AM CLI.Customer run
+INFO: Customer 48 purchased: Ticket{ticketId=48, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:38 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=96, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 47
+Dec 08, 2024 2:04:38 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=97, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 48
+Dec 08, 2024 2:04:38 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=98, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 49
+Dec 08, 2024 2:04:38 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=99, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 50
+Dec 08, 2024 2:04:38 AM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:04:38 AM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:04:38 AM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:04:38 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:04:38 AM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:04:38 AM CLI.Customer run
+INFO: Customer 49 purchased: Ticket{ticketId=49, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:38 AM CLI.Customer run
+INFO: Customer 50 purchased: Ticket{ticketId=50, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:39 AM CLI.Customer run
+INFO: Customer 51 purchased: Ticket{ticketId=51, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:39 AM CLI.Customer run
+INFO: Customer 52 purchased: Ticket{ticketId=52, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:39 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=100, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 47
+Dec 08, 2024 2:04:39 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=101, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 48
+Dec 08, 2024 2:04:39 AM CLI.Vendor run
+WARNING: Vendor 2 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:04:39 AM CLI.Vendor run
+WARNING: Vendor 4 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:04:39 AM CLI.Vendor run
+WARNING: Vendor 3 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:04:39 AM CLI.Customer run
+INFO: Customer 53 purchased: Ticket{ticketId=53, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:39 AM CLI.Customer run
+INFO: Customer 54 purchased: Ticket{ticketId=54, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:40 AM CLI.Customer run
+INFO: Customer 55 purchased: Ticket{ticketId=55, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:04:40 AM CLI.Customer run
+INFO: Customer 56 purchased: Ticket{ticketId=56, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:40 AM CLI.Vendor run
+WARNING: Vendor 1 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:04:40 AM CLI.Vendor run
+WARNING: Vendor 5 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 2:04:40 AM CLI.Customer run
+INFO: Customer 57 purchased: Ticket{ticketId=57, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:40 AM CLI.Customer run
+INFO: Customer 58 purchased: Ticket{ticketId=58, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:41 AM CLI.Customer run
+INFO: Customer 59 purchased: Ticket{ticketId=59, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:41 AM CLI.Customer run
+INFO: Customer 60 purchased: Ticket{ticketId=61, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:41 AM CLI.Customer run
+INFO: Customer 61 purchased: Ticket{ticketId=62, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:41 AM CLI.Customer run
+INFO: Customer 62 purchased: Ticket{ticketId=63, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:42 AM CLI.Customer run
+INFO: Customer 63 purchased: Ticket{ticketId=64, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:42 AM CLI.Customer run
+INFO: Customer 64 purchased: Ticket{ticketId=65, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:42 AM CLI.Customer run
+INFO: Customer 65 purchased: Ticket{ticketId=66, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:42 AM CLI.Customer run
+INFO: Customer 66 purchased: Ticket{ticketId=67, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:43 AM CLI.Customer run
+INFO: Customer 67 purchased: Ticket{ticketId=68, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:04:43 AM CLI.Customer run
+INFO: Customer 68 purchased: Ticket{ticketId=69, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:43 AM CLI.Customer run
+INFO: Customer 69 purchased: Ticket{ticketId=70, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:44 AM CLI.Customer run
+INFO: Customer 70 purchased: Ticket{ticketId=71, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:44 AM CLI.Customer run
+INFO: Customer 71 purchased: Ticket{ticketId=72, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:44 AM CLI.Customer run
+INFO: Customer 72 purchased: Ticket{ticketId=73, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:44 AM CLI.Customer run
+INFO: Customer 73 purchased: Ticket{ticketId=74, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:45 AM CLI.Customer run
+INFO: Customer 74 purchased: Ticket{ticketId=75, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:45 AM CLI.Customer run
+INFO: Customer 75 purchased: Ticket{ticketId=76, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:45 AM CLI.Customer run
+INFO: Customer 76 purchased: Ticket{ticketId=77, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:45 AM CLI.Customer run
+INFO: Customer 77 purchased: Ticket{ticketId=78, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:46 AM CLI.Customer run
+INFO: Customer 78 purchased: Ticket{ticketId=79, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:46 AM CLI.Customer run
+INFO: Customer 79 purchased: Ticket{ticketId=80, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:04:46 AM CLI.Customer run
+INFO: Customer 80 purchased: Ticket{ticketId=81, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:46 AM CLI.Customer run
+INFO: Customer 81 purchased: Ticket{ticketId=82, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:47 AM CLI.Customer run
+INFO: Customer 82 purchased: Ticket{ticketId=83, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:47 AM CLI.Customer run
+INFO: Customer 83 purchased: Ticket{ticketId=84, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:47 AM CLI.Customer run
+INFO: Customer 84 purchased: Ticket{ticketId=85, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:04:47 AM CLI.Main main
+INFO: Stopping the system...
+Dec 08, 2024 2:04:47 AM CLI.Main main
+INFO: System stopped successfully.
+Dec 08, 2024 2:04:47 AM CLI.Main lambda$main$0
+WARNING: Customer creation thread interrupted.
+Dec 08, 2024 11:42:40 AM CLI.Main main
+INFO: Type 'stop' to terminate the system:
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 1
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 2
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 3
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 4
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 5
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 6
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 7
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 8
+Dec 08, 2024 11:42:40 AM CLI.TicketPool addTicket
+WARNING: Vendor 3 cannot add ticket: Pool is full.
+Dec 08, 2024 11:42:40 AM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 11:42:40 AM CLI.Customer run
+INFO: Customer 1 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 11:42:40 AM CLI.Customer run
+INFO: Customer 2 purchased: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 11:42:41 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 7
+Dec 08, 2024 11:42:41 AM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 8
+Dec 08, 2024 11:42:41 AM CLI.Vendor run
+WARNING: Vendor 5 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 11:42:41 AM CLI.Vendor run
+WARNING: Vendor 2 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 11:42:41 AM CLI.Customer run
+INFO: Customer 3 purchased: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 11:42:41 AM CLI.Vendor run
+WARNING: Vendor 1 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 11:42:41 AM CLI.Customer run
+INFO: Customer 4 purchased: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 11:42:42 AM CLI.Vendor run
+WARNING: Vendor 4 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 11:42:42 AM CLI.Vendor run
+WARNING: Vendor 3 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 11:42:42 AM CLI.Customer run
+INFO: Customer 5 purchased: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 11:42:42 AM CLI.Customer run
+INFO: Customer 6 purchased: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 11:42:43 AM CLI.Customer run
+INFO: Customer 7 purchased: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 11:42:43 AM CLI.Customer run
+INFO: Customer 8 purchased: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 11:42:44 AM CLI.Customer run
+INFO: Customer 9 purchased: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 11:42:44 AM CLI.Customer run
+INFO: Customer 10 purchased: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 11:42:45 AM CLI.Main lambda$main$0
+INFO: All tickets are sold. Stopping the system...
+Dec 08, 2024 12:21:58 PM CLI.Main main
+INFO: Type 'stop' to terminate the system:
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 1
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 2
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 3
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 4
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 5
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 6
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 7
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 8
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 9
+Dec 08, 2024 12:21:58 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 10
+Dec 08, 2024 12:21:58 PM CLI.Customer run
+INFO: Customer 1 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:21:58 PM CLI.Customer run
+INFO: Customer 2 purchased: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:21:59 PM CLI.Customer run
+INFO: Customer 3 purchased: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 8
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 9
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 10
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 11
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 12
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 13
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 14
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=18, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 15
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=19, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 16
+Dec 08, 2024 12:21:59 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=20, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 17
+Dec 08, 2024 12:21:59 PM CLI.Customer run
+INFO: Customer 4 purchased: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 12:22:00 PM CLI.Customer run
+INFO: Customer 5 purchased: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=21, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 16
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=22, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 17
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=23, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 18
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=24, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 19
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=25, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 20
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=26, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 21
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=27, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 22
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=28, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 23
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=29, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 24
+Dec 08, 2024 12:22:00 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=30, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 25
+Dec 08, 2024 12:22:00 PM CLI.Customer run
+INFO: Customer 6 purchased: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:01 PM CLI.Customer run
+INFO: Customer 7 purchased: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:01 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=31, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 24
+Dec 08, 2024 12:22:01 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=32, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 25
+Dec 08, 2024 12:22:01 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:22:01 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:22:01 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:22:01 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:22:01 PM CLI.Customer run
+INFO: Customer 8 purchased: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:02 PM CLI.Customer run
+INFO: Customer 9 purchased: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 12:22:02 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=33, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 24
+Dec 08, 2024 12:22:02 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=34, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 25
+Dec 08, 2024 12:22:02 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:22:02 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:22:02 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:22:02 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:22:02 PM CLI.Customer run
+INFO: Customer 10 purchased: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 12:22:03 PM CLI.Customer run
+INFO: Customer 11 purchased: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:03 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=35, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 24
+Dec 08, 2024 12:22:03 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=36, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 25
+Dec 08, 2024 12:22:03 PM CLI.Customer run
+INFO: Customer 12 purchased: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:04 PM CLI.Customer run
+INFO: Customer 13 purchased: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:04 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=37, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 24
+Dec 08, 2024 12:22:04 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=38, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 25
+Dec 08, 2024 12:22:04 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:22:04 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:22:04 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:22:04 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:22:04 PM CLI.Customer run
+INFO: Customer 14 purchased: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:05 PM CLI.Customer run
+INFO: Customer 15 purchased: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 12:22:05 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=39, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 24
+Dec 08, 2024 12:22:05 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=40, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 25
+Dec 08, 2024 12:22:05 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:22:05 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:22:05 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:22:05 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:22:05 PM CLI.Customer run
+INFO: Customer 16 purchased: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 12:22:06 PM CLI.Customer run
+INFO: Customer 17 purchased: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 12:22:06 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=41, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 24
+Dec 08, 2024 12:22:06 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=42, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 25
+Dec 08, 2024 12:22:06 PM CLI.Customer run
+INFO: Customer 18 purchased: Ticket{ticketId=18, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 12:22:07 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=43, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 25
+Dec 08, 2024 12:22:07 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:22:07 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:22:07 PM CLI.Customer run
+INFO: Customer 19 purchased: Ticket{ticketId=19, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:22:07 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=44, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 25
+Dec 08, 2024 12:22:07 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:22:07 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:22:07 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:22:07 PM CLI.Customer run
+INFO: Customer 20 purchased: Ticket{ticketId=20, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:22:08 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=45, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 25
+Dec 08, 2024 12:22:08 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:22:08 PM CLI.Customer run
+INFO: Customer 21 purchased: Ticket{ticketId=21, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:08 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:22:08 PM CLI.Customer run
+INFO: Customer 22 purchased: Ticket{ticketId=22, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:09 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=46, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 24
+Dec 08, 2024 12:22:09 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=47, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 25
+Dec 08, 2024 12:22:09 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:22:09 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:22:09 PM CLI.Customer run
+INFO: Customer 23 purchased: Ticket{ticketId=23, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:09 PM CLI.Customer run
+INFO: Customer 24 purchased: Ticket{ticketId=24, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:10 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=48, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 24
+Dec 08, 2024 12:22:10 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=49, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 25
+Dec 08, 2024 12:22:10 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:22:10 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:22:10 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:22:10 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:22:10 PM CLI.Customer run
+INFO: Customer 25 purchased: Ticket{ticketId=25, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 12:22:10 PM CLI.Customer run
+INFO: Customer 26 purchased: Ticket{ticketId=26, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 12:22:11 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=50, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 24
+Dec 08, 2024 12:22:11 PM CLI.Vendor run
+WARNING: Vendor 4 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:22:11 PM CLI.Customer run
+INFO: Customer 27 purchased: Ticket{ticketId=27, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 12:22:11 PM CLI.Vendor run
+WARNING: Vendor 3 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:22:11 PM CLI.Vendor run
+WARNING: Vendor 2 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:22:11 PM CLI.Customer run
+INFO: Customer 28 purchased: Ticket{ticketId=28, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 12:22:12 PM CLI.Vendor run
+WARNING: Vendor 5 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:22:12 PM CLI.Vendor run
+WARNING: Vendor 1 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:22:12 PM CLI.Customer run
+INFO: Customer 29 purchased: Ticket{ticketId=29, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:22:12 PM CLI.Customer run
+INFO: Customer 30 purchased: Ticket{ticketId=30, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:22:13 PM CLI.Customer run
+INFO: Customer 31 purchased: Ticket{ticketId=31, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:13 PM CLI.Customer run
+INFO: Customer 32 purchased: Ticket{ticketId=32, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:14 PM CLI.Customer run
+INFO: Customer 33 purchased: Ticket{ticketId=33, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:14 PM CLI.Customer run
+INFO: Customer 34 purchased: Ticket{ticketId=34, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:15 PM CLI.Customer run
+INFO: Customer 35 purchased: Ticket{ticketId=35, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:15 PM CLI.Customer run
+INFO: Customer 36 purchased: Ticket{ticketId=36, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:16 PM CLI.Customer run
+INFO: Customer 37 purchased: Ticket{ticketId=37, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:16 PM CLI.Customer run
+INFO: Customer 38 purchased: Ticket{ticketId=38, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:17 PM CLI.Customer run
+INFO: Customer 39 purchased: Ticket{ticketId=39, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:17 PM CLI.Customer run
+INFO: Customer 40 purchased: Ticket{ticketId=40, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:18 PM CLI.Customer run
+INFO: Customer 41 purchased: Ticket{ticketId=41, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:19 PM CLI.Customer run
+INFO: Customer 42 purchased: Ticket{ticketId=42, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:19 PM CLI.Customer run
+INFO: Customer 43 purchased: Ticket{ticketId=43, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:20 PM CLI.Customer run
+INFO: Customer 44 purchased: Ticket{ticketId=44, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 12:22:20 PM CLI.Customer run
+INFO: Customer 45 purchased: Ticket{ticketId=45, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:22:21 PM CLI.Customer run
+INFO: Customer 46 purchased: Ticket{ticketId=46, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:21 PM CLI.Customer run
+INFO: Customer 47 purchased: Ticket{ticketId=47, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:22 PM CLI.Customer run
+INFO: Customer 48 purchased: Ticket{ticketId=48, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:22 PM CLI.Customer run
+INFO: Customer 49 purchased: Ticket{ticketId=49, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:23 PM CLI.Customer run
+INFO: Customer 50 purchased: Ticket{ticketId=50, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:22:23 PM CLI.Main lambda$main$0
+INFO: All tickets are sold. Stopping the system...
+Dec 08, 2024 12:36:19 PM CLI.Main main
+INFO: Type 'stop' to terminate the system:
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 1
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 2
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 3
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 4
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 5
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 6
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 7
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 8
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 9
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 10
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 11
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 12
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 13
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 14
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 15
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=18, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 16
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=19, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 17
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=20, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 18
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 19
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=21, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 20
+Dec 08, 2024 12:36:19 PM CLI.TicketPool addTicket
+WARNING: Vendor 4 cannot add ticket: Pool is full.
+Dec 08, 2024 12:36:19 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:36:19 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:36:19 PM CLI.Customer run
+INFO: Customer 1 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:36:20 PM CLI.Customer run
+INFO: Customer 2 purchased: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:36:20 PM CLI.Customer run
+INFO: Customer 3 purchased: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:36:20 PM CLI.Customer run
+INFO: Customer 4 purchased: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:36:20 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=22, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 17
+Dec 08, 2024 12:36:20 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=23, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 18
+Dec 08, 2024 12:36:20 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=24, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 19
+Dec 08, 2024 12:36:20 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=25, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 20
+Dec 08, 2024 12:36:20 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:36:20 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:36:20 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:36:20 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 12:36:20 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 12:36:20 PM CLI.Customer run
+INFO: Customer 5 purchased: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:36:21 PM CLI.Customer run
+INFO: Customer 6 purchased: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:36:21 PM CLI.Customer run
+INFO: Customer 7 purchased: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:36:21 PM CLI.Customer run
+INFO: Customer 8 purchased: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:36:21 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=26, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 17
+Dec 08, 2024 12:36:21 PM CLI.Vendor run
+WARNING: Vendor 1 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:36:21 PM CLI.Vendor run
+WARNING: Vendor 3 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:36:22 PM CLI.Vendor run
+WARNING: Vendor 4 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:36:22 PM CLI.Vendor run
+WARNING: Vendor 5 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:36:22 PM CLI.Vendor run
+WARNING: Vendor 2 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:36:22 PM CLI.Customer run
+INFO: Customer 9 purchased: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:36:22 PM CLI.Customer run
+INFO: Customer 10 purchased: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:36:22 PM CLI.Customer run
+INFO: Customer 11 purchased: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:36:22 PM CLI.Customer run
+INFO: Customer 12 purchased: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:36:23 PM CLI.Customer run
+INFO: Customer 13 purchased: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:04 PM CLI.Main main
+INFO: Type 'stop' to terminate the system:
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 1
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 2
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 3
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 4
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 5
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 6
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 7
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 8
+Dec 08, 2024 12:42:04 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 9
+Dec 08, 2024 12:42:04 PM CLI.Customer run
+INFO: Customer 1 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:04 PM CLI.Customer run
+INFO: Customer 2 purchased: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:05 PM CLI.Customer run
+INFO: Customer 3 purchased: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 7
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 8
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 9
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 10
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 11
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 12
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 13
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 14
+Dec 08, 2024 12:42:05 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 15
+Dec 08, 2024 12:42:05 PM CLI.Customer run
+INFO: Customer 4 purchased: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:06 PM CLI.Customer run
+INFO: Customer 5 purchased: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:06 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=18, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 14
+Dec 08, 2024 12:42:06 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=19, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 15
+Dec 08, 2024 12:42:06 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=20, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 16
+Dec 08, 2024 12:42:06 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=21, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 17
+Dec 08, 2024 12:42:06 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=22, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 18
+Dec 08, 2024 12:42:06 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=23, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 19
+Dec 08, 2024 12:42:06 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=24, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 20
+Dec 08, 2024 12:42:06 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:42:06 PM CLI.Customer run
+INFO: Customer 6 purchased: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:07 PM CLI.Customer run
+INFO: Customer 7 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:07 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=25, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 19
+Dec 08, 2024 12:42:07 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=26, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 20
+Dec 08, 2024 12:42:07 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:42:07 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:42:07 PM CLI.Customer run
+INFO: Customer 8 purchased: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:08 PM CLI.Customer run
+INFO: Customer 9 purchased: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:08 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=27, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 19
+Dec 08, 2024 12:42:08 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=28, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 20
+Dec 08, 2024 12:42:08 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:42:08 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:42:08 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:42:08 PM CLI.Customer run
+INFO: Customer 10 purchased: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:09 PM CLI.Customer run
+INFO: Customer 11 purchased: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:09 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=29, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 19
+Dec 08, 2024 12:42:09 PM CLI.Customer run
+INFO: Customer 12 purchased: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:10 PM CLI.Customer run
+INFO: Customer 13 purchased: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:10 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=30, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 18
+Dec 08, 2024 12:42:10 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=31, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 19
+Dec 08, 2024 12:42:10 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=32, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 20
+Dec 08, 2024 12:42:10 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:42:10 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:42:10 PM CLI.Customer run
+INFO: Customer 14 purchased: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:11 PM CLI.Customer run
+INFO: Customer 15 purchased: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:11 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=33, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 19
+Dec 08, 2024 12:42:11 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=34, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 20
+Dec 08, 2024 12:42:11 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:42:11 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:42:11 PM CLI.Customer run
+INFO: Customer 16 purchased: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:12 PM CLI.Customer run
+INFO: Customer 17 purchased: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:12 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=35, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 19
+Dec 08, 2024 12:42:12 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=36, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 20
+Dec 08, 2024 12:42:12 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:42:12 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:42:12 PM CLI.Customer run
+INFO: Customer 18 purchased: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:13 PM CLI.Customer run
+INFO: Customer 19 purchased: Ticket{ticketId=18, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:13 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=37, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 19
+Dec 08, 2024 12:42:13 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=38, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 20
+Dec 08, 2024 12:42:13 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:42:13 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:42:13 PM CLI.Customer run
+INFO: Customer 20 purchased: Ticket{ticketId=19, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:14 PM CLI.Customer run
+INFO: Customer 21 purchased: Ticket{ticketId=20, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:14 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=39, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 19
+Dec 08, 2024 12:42:14 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=40, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 20
+Dec 08, 2024 12:42:14 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:42:14 PM CLI.Customer run
+INFO: Customer 22 purchased: Ticket{ticketId=21, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:15 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=41, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 20
+Dec 08, 2024 12:42:15 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:42:15 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:42:15 PM CLI.Customer run
+INFO: Customer 23 purchased: Ticket{ticketId=22, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:15 PM CLI.Customer run
+INFO: Customer 24 purchased: Ticket{ticketId=23, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:16 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=42, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 19
+Dec 08, 2024 12:42:16 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=43, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 20
+Dec 08, 2024 12:42:16 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:42:16 PM CLI.Customer run
+INFO: Customer 25 purchased: Ticket{ticketId=24, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:16 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=44, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 20
+Dec 08, 2024 12:42:16 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:42:16 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:42:16 PM CLI.Customer run
+INFO: Customer 26 purchased: Ticket{ticketId=25, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:17 PM CLI.Customer run
+INFO: Customer 27 purchased: Ticket{ticketId=26, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:17 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=45, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 19
+Dec 08, 2024 12:42:17 PM CLI.Customer run
+INFO: Customer 28 purchased: Ticket{ticketId=27, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:18 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=46, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 19
+Dec 08, 2024 12:42:18 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=47, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 20
+Dec 08, 2024 12:42:18 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 12:42:18 PM CLI.Customer run
+INFO: Customer 29 purchased: Ticket{ticketId=28, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:18 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=48, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 20
+Dec 08, 2024 12:42:18 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 12:42:18 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 12:42:18 PM CLI.Customer run
+INFO: Customer 30 purchased: Ticket{ticketId=29, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=49, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 20
+Dec 08, 2024 12:42:19 PM CLI.Vendor run
+WARNING: Vendor 1 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:42:19 PM CLI.Customer run
+INFO: Customer 31 purchased: Ticket{ticketId=30, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:19 PM CLI.Vendor run
+WARNING: Vendor 3 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:42:19 PM CLI.Customer run
+INFO: Customer 32 purchased: Ticket{ticketId=31, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:20 PM CLI.Vendor run
+WARNING: Vendor 2 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 12:42:20 PM CLI.Customer run
+INFO: Customer 33 purchased: Ticket{ticketId=32, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:20 PM CLI.Customer run
+INFO: Customer 34 purchased: Ticket{ticketId=33, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:21 PM CLI.Customer run
+INFO: Customer 35 purchased: Ticket{ticketId=34, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:21 PM CLI.Customer run
+INFO: Customer 36 purchased: Ticket{ticketId=35, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:22 PM CLI.Customer run
+INFO: Customer 37 purchased: Ticket{ticketId=36, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:23 PM CLI.Customer run
+INFO: Customer 38 purchased: Ticket{ticketId=37, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:23 PM CLI.Customer run
+INFO: Customer 39 purchased: Ticket{ticketId=38, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:24 PM CLI.Customer run
+INFO: Customer 40 purchased: Ticket{ticketId=39, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:24 PM CLI.Customer run
+INFO: Customer 41 purchased: Ticket{ticketId=40, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:25 PM CLI.Customer run
+INFO: Customer 42 purchased: Ticket{ticketId=41, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:25 PM CLI.Customer run
+INFO: Customer 43 purchased: Ticket{ticketId=42, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:26 PM CLI.Customer run
+INFO: Customer 44 purchased: Ticket{ticketId=43, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:26 PM CLI.Customer run
+INFO: Customer 45 purchased: Ticket{ticketId=44, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:27 PM CLI.Customer run
+INFO: Customer 46 purchased: Ticket{ticketId=45, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:27 PM CLI.Customer run
+INFO: Customer 47 purchased: Ticket{ticketId=46, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:28 PM CLI.Customer run
+INFO: Customer 48 purchased: Ticket{ticketId=47, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 12:42:28 PM CLI.Customer run
+INFO: Customer 49 purchased: Ticket{ticketId=48, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 12:42:29 PM CLI.Customer run
+INFO: Customer 50 purchased: Ticket{ticketId=49, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 12:42:29 PM CLI.Main lambda$main$0
+INFO: All tickets are sold. Stopping the system...
+Dec 08, 2024 1:21:37 PM CLI.Configuration promptForPositiveInt
+WARNING: Invalid input. Please enter a valid integer.
+Dec 08, 2024 1:21:40 PM CLI.Configuration promptForPositiveInt
+WARNING: Invalid input. Please enter a valid integer.
+Dec 08, 2024 1:21:42 PM CLI.Main main
+INFO: Type 'stop' to terminate the system:
+Dec 08, 2024 1:21:42 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 1
+Dec 08, 2024 1:21:42 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 2
+Dec 08, 2024 1:21:42 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 3
+Dec 08, 2024 1:21:42 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 4
+Dec 08, 2024 1:21:42 PM CLI.Customer run
+INFO: Customer 1 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 1:21:42 PM CLI.Customer run
+INFO: Customer 2 purchased: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+INFO: Customer 3 purchased: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+INFO: Customer 4 purchased: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+WARNING: Customer 5 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+WARNING: Customer 6 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+WARNING: Customer 7 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+WARNING: Customer 8 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+WARNING: Customer 9 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+WARNING: Customer 10 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:43 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 1
+Dec 08, 2024 1:21:43 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 2
+Dec 08, 2024 1:21:43 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 3
+Dec 08, 2024 1:21:43 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 4
+Dec 08, 2024 1:21:43 PM CLI.Customer run
+INFO: Customer 11 purchased: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+INFO: Customer 12 purchased: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+INFO: Customer 13 purchased: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+INFO: Customer 14 purchased: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+WARNING: Customer 15 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+WARNING: Customer 16 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+WARNING: Customer 17 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+WARNING: Customer 18 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+WARNING: Customer 19 could not purchase a ticket.Ticket Pool is empty!!!
+Dec 08, 2024 1:21:44 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 1
+Dec 08, 2024 1:21:44 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 2
+Dec 08, 2024 1:21:44 PM CLI.Vendor run
+WARNING: Vendor 2 has reached the total ticket limit. Stopping ticket generation.
+Dec 08, 2024 1:21:44 PM CLI.Customer run
+INFO: Customer 20 purchased: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 1:21:45 PM CLI.Customer run
+INFO: Customer 21 purchased: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 1:21:45 PM CLI.Main lambda$main$0
+INFO: All tickets are sold. Stopping the system...
+Dec 08, 2024 1:21:45 PM CLI.Vendor run
+WARNING: Vendor 1 thread stopped.
+Dec 08, 2024 2:10:17 PM CLI.Main main
+INFO: Type 'stop' to terminate the system:
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 1
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 2
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 3
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 4 added ticket: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}. Current pool size: 4
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 5
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 6
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 7
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 8
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 9
+Dec 08, 2024 2:10:17 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 10
+Dec 08, 2024 2:10:17 PM CLI.Customer run
+INFO: Customer 1 purchased: Ticket{ticketId=1, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:10:18 PM CLI.Customer run
+INFO: Customer 2 purchased: Ticket{ticketId=6, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}
+Dec 08, 2024 2:10:19 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 9
+Dec 08, 2024 2:10:19 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 10
+Dec 08, 2024 2:10:19 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 11
+Dec 08, 2024 2:10:19 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 12
+Dec 08, 2024 2:10:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 13
+Dec 08, 2024 2:10:19 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 14
+Dec 08, 2024 2:10:19 PM CLI.Customer run
+INFO: Customer 3 purchased: Ticket{ticketId=2, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:10:19 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:10:19 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:10:19 PM CLI.Customer run
+INFO: Customer 4 purchased: Ticket{ticketId=7, eventName='Concert 2024', ticketPrice=50.00, vendorId=4}
+Dec 08, 2024 2:10:20 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 13
+Dec 08, 2024 2:10:20 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=18, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 14
+Dec 08, 2024 2:10:20 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:10:20 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:10:20 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:10:20 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:10:20 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:10:20 PM CLI.Customer run
+INFO: Customer 5 purchased: Ticket{ticketId=3, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:10:20 PM CLI.Customer run
+INFO: Customer 6 purchased: Ticket{ticketId=8, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:10:21 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=19, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 13
+Dec 08, 2024 2:10:21 PM CLI.Customer run
+INFO: Customer 7 purchased: Ticket{ticketId=4, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:10:21 PM CLI.Customer run
+INFO: Customer 8 purchased: Ticket{ticketId=9, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:10:22 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=20, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 12
+Dec 08, 2024 2:10:22 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=21, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 13
+Dec 08, 2024 2:10:22 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=22, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 14
+Dec 08, 2024 2:10:22 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:10:22 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:10:22 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:10:22 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:10:22 PM CLI.Customer run
+INFO: Customer 9 purchased: Ticket{ticketId=5, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:10:22 PM CLI.Customer run
+INFO: Customer 10 purchased: Ticket{ticketId=10, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:10:23 PM CLI.TicketPool addTicket
+INFO: Vendor 3 added ticket: Ticket{ticketId=23, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}. Current pool size: 13
+Dec 08, 2024 2:10:23 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=24, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 14
+Dec 08, 2024 2:10:23 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:10:23 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:10:23 PM CLI.Customer run
+INFO: Customer 11 purchased: Ticket{ticketId=11, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:10:23 PM CLI.Customer run
+INFO: Customer 12 purchased: Ticket{ticketId=12, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}
+Dec 08, 2024 2:10:24 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=25, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 13
+Dec 08, 2024 2:10:24 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=26, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 14
+Dec 08, 2024 2:10:24 PM CLI.Vendor run
+WARNING: Vendor 1 is waiting: Pool is full.
+Dec 08, 2024 2:10:24 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:10:24 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:10:24 PM CLI.Customer run
+INFO: Customer 13 purchased: Ticket{ticketId=13, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:10:24 PM CLI.Customer run
+INFO: Customer 14 purchased: Ticket{ticketId=14, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}
+Dec 08, 2024 2:10:25 PM CLI.TicketPool addTicket
+INFO: Vendor 2 added ticket: Ticket{ticketId=27, eventName='Concert 2024', ticketPrice=50.00, vendorId=2}. Current pool size: 13
+Dec 08, 2024 2:10:25 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=28, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 14
+Dec 08, 2024 2:10:25 PM CLI.Vendor run
+WARNING: Vendor 3 is waiting: Pool is full.
+Dec 08, 2024 2:10:25 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:10:25 PM CLI.Vendor run
+WARNING: Vendor 2 is waiting: Pool is full.
+Dec 08, 2024 2:10:25 PM CLI.Customer run
+INFO: Customer 15 purchased: Ticket{ticketId=15, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:10:25 PM CLI.Customer run
+INFO: Customer 16 purchased: Ticket{ticketId=16, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:10:26 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=29, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 13
+Dec 08, 2024 2:10:26 PM CLI.TicketPool addTicket
+INFO: Vendor 1 added ticket: Ticket{ticketId=30, eventName='Concert 2024', ticketPrice=50.00, vendorId=1}. Current pool size: 14
+Dec 08, 2024 2:10:26 PM CLI.Vendor run
+WARNING: Vendor 4 is waiting: Pool is full.
+Dec 08, 2024 2:10:26 PM CLI.Vendor run
+WARNING: Vendor 5 is waiting: Pool is full.
+Dec 08, 2024 2:10:26 PM CLI.Customer run
+INFO: Customer 17 purchased: Ticket{ticketId=17, eventName='Concert 2024', ticketPrice=50.00, vendorId=3}
+Dec 08, 2024 2:10:26 PM CLI.Main main
+INFO: Stopping the system...
+Dec 08, 2024 2:10:26 PM CLI.Main main
+INFO: System stopped successfully.
+Dec 08, 2024 2:10:26 PM CLI.Main lambda$main$0
+WARNING: Customer creation thread interrupted.
+Dec 08, 2024 2:10:27 PM CLI.Vendor run
+WARNING: Vendor 1 thread stopped.
+Dec 08, 2024 2:10:27 PM CLI.Vendor run
+WARNING: Vendor 3 thread stopped.
+Dec 08, 2024 2:10:27 PM CLI.TicketPool addTicket
+INFO: Vendor 5 added ticket: Ticket{ticketId=31, eventName='Concert 2024', ticketPrice=50.00, vendorId=5}. Current pool size: 14
+Dec 08, 2024 2:10:27 PM CLI.Vendor run
+WARNING: Vendor 2 thread stopped.
+Dec 08, 2024 2:10:28 PM CLI.Vendor run
+WARNING: Vendor 5 thread stopped.
+Dec 08, 2024 2:10:28 PM CLI.Vendor run
+WARNING: Vendor 4 thread stopped.

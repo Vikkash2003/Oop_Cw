@@ -3,46 +3,43 @@ package backend.oop_cw.Controller;
 import backend.oop_cw.Model.Vendor;
 import backend.oop_cw.Service.VendorService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/vendor")
+@RequestMapping("/api/vendors")
 public class VendorController {
 
     @Autowired
-    private VendorService service;
+    private VendorService vendorService;
 
+    // Get all vendors
     @GetMapping
-    public List<Vendor> getAllVendors(){
-        return service.getAllVendors();
+    public List<Vendor> getAllVendors() {
+        return vendorService.getAllVendors();
     }
 
+    // Add a new vendor
     @PostMapping
-    public ResponseEntity<Void> addVendor(@RequestBody Vendor vendor) {
-        service.addVendor(vendor);
-        return new ResponseEntity<>(HttpStatus.CREATED);
+    public Vendor addVendor(@RequestBody Vendor vendor) {
+        return vendorService.addVendor(vendor);
     }
 
-//    @PutMapping
-//    public ResponseEntity<Void> updateCustomer(@RequestBody Vendor vendor) {
-//        boolean updated = vendorService.updateVendor(vendor);
-//        if (!updated) {
-//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//        }
-//        return new ResponseEntity<>(HttpStatus.OK);
-//    }
-
-    // Deleting vendor in the Vendor list
+    // Delete a vendor by ID
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteCustomer(@PathVariable int id) {
-        boolean deleted = service.deleteVendor(id);
-        if (!deleted) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    public String deleteVendor(@PathVariable int id) {
+        boolean removed = vendorService.deleteVendorById(id);
+        if (removed) {
+            return "Vendor with ID " + id + " removed successfully.";
+        } else {
+            return "Vendor with ID " + id + " not found.";
         }
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    // Update a vendor by ID
+    @PutMapping("/{id}")
+    public Vendor updateVendor(@PathVariable int id, @RequestBody Vendor updatedVendor) {
+        return vendorService.updateVendor(id, updatedVendor);
     }
 }
