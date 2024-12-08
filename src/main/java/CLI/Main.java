@@ -5,20 +5,22 @@ import java.util.logging.Logger;
 
 public class Main {
     private static final Logger logger = LogUtill.getLogger();
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter configuration details:");
         Configuration config = Configuration.promptForConfiguration(scanner);
 
+        // Save the configuration to a file using Jackson
+        config.saveToFile("configuration.json");
+
         TicketPool ticketPool = new TicketPool(config.getMaxTicketCapacity(), config.getTotalTickets());
         StopFlag stopFlag = new StopFlag();
 
-
         // Start vendors
-        System.out.print("Enter the number of vendors: ");
-        int numberOfVendors = Integer.parseInt(scanner.nextLine());
-        for (int i = 1; i <= numberOfVendors; i++) {
+        int vendorCount = config.getVendorCount();
+        for (int i = 1; i <= vendorCount; i++) {
             Vendor vendor = new Vendor(ticketPool, config.getTicketReleaseRate(), stopFlag);
             Thread vendorThread = new Thread(vendor, "Vendor-" + vendor.getVendorId());
             vendorThread.start();

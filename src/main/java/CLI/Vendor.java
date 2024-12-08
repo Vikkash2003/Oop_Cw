@@ -20,6 +20,7 @@ class Vendor implements Runnable {
     }
 
     private static final Logger logger = LogUtill.getLogger();
+
     @Override
     public void run() {
         String eventName = "Concert 2024";
