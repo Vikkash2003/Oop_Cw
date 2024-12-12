@@ -5,7 +5,8 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-public class LogUtill {
+//logger Utilization class saving logging details
+public class LoggerUtilization {
     private static final Logger logger = Logger.getLogger("TicketSystemLogger");
 
     static {
@@ -20,6 +21,7 @@ public class LogUtill {
         }
     }
 
+    //getter for logger
     public static Logger getLogger() {
         return logger;
     }

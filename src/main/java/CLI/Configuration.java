@@ -1,12 +1,14 @@
 package CLI;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
 
-import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Writer;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+// Configuration class holds the input parameters
 class Configuration {
     private int totalTickets;
     private int ticketReleaseRate;
@@ -14,7 +16,6 @@ class Configuration {
     private int maxTicketCapacity;
     private int vendorCount;
 
-    public Configuration() {}
 
     public Configuration(int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int maxTicketCapacity, int vendorCount) {
         this.totalTickets = totalTickets;
@@ -24,6 +25,7 @@ class Configuration {
         this.vendorCount = vendorCount;
     }
 
+    //getters and setters for instances
     public int getTotalTickets() {
         return totalTickets;
     }
@@ -44,29 +46,33 @@ class Configuration {
         return vendorCount;
     }
 
+    //save configuration inputs to configuration.json file
     public void saveToFile(String filename) {
-        try {
-            ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.writeValue(new File(filename), this);
+        try (Writer writer = new FileWriter(filename)) {
+            Gson gson = new Gson();
+            gson.toJson(this, writer);
             System.out.println("Configuration saved to " + filename);
         } catch (IOException e) {
             System.out.println("Error saving configuration: " + e.getMessage());
         }
     }
 
+    //prompt with positive Number  validation
     public static Configuration promptForConfiguration(Scanner scanner) {
-        int totalTickets = promptForPositiveInt(scanner, "Total tickets: ");
-        int ticketReleaseRate = promptForPositiveInt(scanner, "Ticket release rate: ");
-        int customerRetrievalRate = promptForPositiveInt(scanner, "Customer retrieval rate (milliseconds): ");
-        int maxTicketCapacity = promptForPositiveInt(scanner, "Maximum ticket capacity: ");
-        int vendorCount = promptForPositiveInt(scanner, "Enter the number of Vendors: ");
+        int totalTickets = positiveNumberPrompt(scanner, "Total tickets: ");
+        int ticketReleaseRate = positiveNumberPrompt(scanner, "Ticket release rate(per seconds): ");
+        int customerRetrievalRate = positiveNumberPrompt(scanner, "Customer retrieval rate (per seconds): ");
+        int maxTicketCapacity = positiveNumberPrompt(scanner, "Maximum ticketPool capacity: ");
+        int vendorCount = positiveNumberPrompt(scanner, "Enter the number of Vendors: ");
 
         return new Configuration(totalTickets, ticketReleaseRate, customerRetrievalRate, maxTicketCapacity, vendorCount);
     }
 
-    private static Logger logger = LogUtill.getLogger();
+    //logger for saving logging details
+    private static Logger logger = LoggerUtilization.getLogger();
 
-    private static int promptForPositiveInt(Scanner scanner, String prompt) {
+    //postitive Number validation
+    private static int positiveNumberPrompt(Scanner scanner, String prompt) {
         int value;
         while (true) {
             System.out.print(prompt);

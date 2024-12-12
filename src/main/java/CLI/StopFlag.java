@@ -1,5 +1,6 @@
 package CLI;
 
+//stopFlag method for managed stop state
 class StopFlag {
     private volatile boolean stopped = false;
 

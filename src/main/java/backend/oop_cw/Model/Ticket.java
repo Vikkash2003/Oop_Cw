@@ -1,27 +1,13 @@
 package backend.oop_cw.Model;
 
 public class Ticket {
-    private int ticketId;
-    private String eventName;
+    private double price;
+    private int vendorId;
 
-    public Ticket(int ticketId, String eventName) {
-        this.ticketId = ticketId;
-        this.eventName = eventName;
+    public Ticket(double price, int vendorId) {
+        this.price = price;
+        this.vendorId = vendorId;
     }
 
-    public int getTicketId() {
-        return ticketId;
-    }
-
-    public void setTicketId(int ticketId) {
-        this.ticketId = ticketId;
-    }
-
-    public String getEventName() {
-        return eventName;
-    }
-
-    public void setEventName(String eventName) {
-        this.eventName = eventName;
-    }
+    public int getVendorId() { return vendorId; }
 }

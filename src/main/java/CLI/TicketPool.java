@@ -18,8 +18,10 @@ class TicketPool {
         this.totalTicketsLimit = totalTicketsLimit;
     }
 
-    private static final Logger logger = LogUtill.getLogger();
+    //logger for save logging details
+    private static final Logger logger = LoggerUtilization.getLogger();
 
+    //method to get the current size og the pool
     public int getTicketCount() {
         lock.lock(); // Locking to ensure thread-safe access
         try {
@@ -29,6 +31,7 @@ class TicketPool {
         }
     }
 
+    //getters for instances
     public int getMaxCapacity() {
         return maxCapacity;
     }
@@ -46,16 +49,18 @@ class TicketPool {
         }
     }
 
+    //method to add ticket to ticketPool
     public void addTicket(Ticket ticket, int vendorId) {
-
-        lock.lock(); // Lock the critical section
+        lock.lock();
         try {
+            //checking the total ticket and released ticket count
             if (totalTicketsGenerated >= totalTicketsLimit) {
                 System.out.println("Vendor " + vendorId + " cannot add ticket: Total ticket limit reached.");
                 logger.warning("Vendor " + vendorId + " cannot add ticket: Total ticket limit reached.");
                 return;
             }
 
+            //checks the ticketPool storage with ticketPool size
             if (tickets.size() >= maxCapacity) {
                 System.out.println("Vendor " + vendorId + " cannot add ticket: Pool is full.");
                 logger.warning("Vendor " + vendorId + " cannot add ticket: Pool is full.");
@@ -71,8 +76,9 @@ class TicketPool {
         }
     }
 
+    //removing ticket from ticketpool
     public Ticket removeTicket() {
-        lock.lock(); // Lock the critical section
+        lock.lock();
         try {
             if (!tickets.isEmpty()) {
                 return tickets.remove(0);
@@ -80,7 +86,7 @@ class TicketPool {
                 return null;
             }
         } finally {
-            lock.unlock(); // Unlock after modification
+            lock.unlock();
         }
     }
 }
